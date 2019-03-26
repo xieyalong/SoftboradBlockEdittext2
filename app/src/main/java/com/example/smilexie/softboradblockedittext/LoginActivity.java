@@ -27,6 +27,7 @@ public class LoginActivity extends TransStatusbarBaseActivity<ActivityLoginBindi
     }
 
     /**
+     *  android:windowSoftInputMode="adjustResize|stateHidden" 在全屏，NestedScrollView情况下main用scrollview里面的view tible不会被顶掉
      *  1、获取main在窗体的可视区域
      *  2、获取main在窗体的不可视区域高度
      *  3、判断不可视区域高度，之前根据经验值，在有些手机上有点不大准，现改成屏幕整体高度的1/3
